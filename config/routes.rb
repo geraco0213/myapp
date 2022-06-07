@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   } 
   
   devise_scope :user do
-    root to: "devise/sessions#new"
+    root to: "users/sessions#new"
     get "signup", :to => "users/registrations#new"
     get "logout", :to => "users/sessions#destroy"
     get "users/dash_boards", :to => "users/dash_boards#index"
