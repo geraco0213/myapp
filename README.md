@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 * Git(HTTPSからSSH通信へ変更)
+
+* git push origin main禁止
