@@ -1,25 +1,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.notice{
-  text-align:center;
-}
-
-.alert{
-  text-align:center;
-}
-
-
+// usersページ //
 .actions{
-    text-align:center;
-}
-
-.btn{
-    margin:20px 0px;
-}
-
-.dash-boards{
   text-align:center;
 }
+
+.btn-login{
+  margin:20px 0px;
+}
+
 
 .btn-edit{
   margin-bottom:0px;
@@ -33,4 +22,17 @@
 
 .account-delete{
   text-align:center;
+}
+
+// フラッシュメッセージ //
+.alert-notice{
+  text-align:center;
+  color:#31708f;
+  background-color:#d9edf7;
+}
+
+.alert-alert{
+  text-align:center;
+  color:#a94442;
+  background-color:#f2dede;
 }

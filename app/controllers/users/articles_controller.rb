@@ -38,6 +38,9 @@ class Users::ArticlesController < ApplicationController
   end
 
   def destroy
+    @article.destroy
+    flash[:success]="投稿を削除しました"
+    redirect_to users_articles_path 
   end
 
   private

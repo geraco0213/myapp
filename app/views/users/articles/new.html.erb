@@ -11,16 +11,9 @@
       <%= f.label :content, class: "label-form" %>
       <%= f.text_area :content, rows:5, class: "form-control" %>
 
-      <%
-=begin%>
- <%= f.label :img, class: "label-form" %> 
-<%
-=end%>
-      <%
-=begin%>
- <%= f.file_field :img, id: :post_img %> 
-<%
-=end%>
+      <%= f.label :img %> 
+      <%= f.file_field :img, id: :article_img %> 
+
       <div class="btn-article">
         <%= f.submit "新規作成", class: "btn btn-primary" %>
       </div>
