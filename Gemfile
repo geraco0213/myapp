@@ -31,6 +31,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # 以下に追加
 gem 'devise'
 gem 'net-smtp'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
 
 
 group :development, :test do

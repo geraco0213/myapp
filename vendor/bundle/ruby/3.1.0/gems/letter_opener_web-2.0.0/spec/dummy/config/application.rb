@@ -24,7 +24,7 @@ require 'letter_opener_web'
 
 module Dummy
   class Application < Rails::Application
-    config.load_defaults Rails::VERSION::STRING.to_f
+    config.load_defaults Rails::VERSION::STRING.to_
 
     # Configuration for the application, engines, and railties goes here.
     #
