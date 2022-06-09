@@ -28,11 +28,13 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-# 以下に追加
+# 以下を追加
 gem 'devise'
 gem 'net-smtp'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
+gem 'carrierwave'
+
 
 
 group :development, :test do
