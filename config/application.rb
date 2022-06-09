@@ -13,6 +13,8 @@ module Myapp
     
     config.time_zone = 'Asia/Tokyo'
     config.i18n.default_locale = :ja
+
+    config.active_model.i18n_customize_full_message = true  # この行を追加
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
