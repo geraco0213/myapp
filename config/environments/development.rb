@@ -83,7 +83,7 @@ Rails.application.configure do
     :address => "smtp.gmail.com",
     :port => 587,
     :domain => 'smtp.gmail.com',
-    :user_name => "toshiki.199521320@gmail.com",
+    :user_name => "example@gmail.com",
     :password => "plwqprliedfimxwd",
     :authentication => 'login'
   }
